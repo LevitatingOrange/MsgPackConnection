@@ -1,4 +1,4 @@
-#MsgPackConnection
+# MsgPackConnection
 
 A very simple library to exchange python objects via TCP.
 It uses msgpack to serialize and deserialize the data and the
