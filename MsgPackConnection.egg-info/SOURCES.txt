@@ -1,8 +1,0 @@
-MsgPackConnection.py
-README.md
-setup.py
-MsgPackConnection.egg-info/PKG-INFO
-MsgPackConnection.egg-info/SOURCES.txt
-MsgPackConnection.egg-info/dependency_links.txt
-MsgPackConnection.egg-info/requires.txt
-MsgPackConnection.egg-info/top_level.txt
