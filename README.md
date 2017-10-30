@@ -7,6 +7,8 @@ low-level python socket api to make a TCP connection.
 ## Usage
 ### Server
 ```python
+from MsgPackConnection import create_connection
+
 with create_connection(server_ip, server_port, True) as c:
     c.write({"foo":"bar"})
     c.read()
@@ -14,6 +16,8 @@ with create_connection(server_ip, server_port, True) as c:
 ```
 ### Client
 ```python
+from MsgPackConnection import create_connection
+
 with create_connection(server_ip, server_port, False) as c:
     c.write({"baz":"bar"})
     c.read()
