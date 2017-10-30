@@ -75,9 +75,9 @@ class Server(Connection):
             self.conn, _ = self.socket.accept()
             logging.debug("Connection established")
             return self
-        except KeyboardInterrupt:
+        except Exception as e:
             self.socket.close()
-            raise KeyboardInterrupt
+            raise e
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         try:

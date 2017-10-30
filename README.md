@@ -2,7 +2,7 @@
 
 A very simple library to exchange python objects via TCP.
 It uses msgpack to serialize and deserialize the data and the
-low-level python socket api.
+low-level python socket api to make a TCP connection.
 
 ## Usage
 ### Server
