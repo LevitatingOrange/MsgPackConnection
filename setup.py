@@ -4,7 +4,7 @@ setup(
     name="MsgPackConnection",
     version="1.0.0",
     description="Simple library for exchanging python objects via TCP",
-    #url="",
+    url="https://github.com/LevitatingOrange/MsgPackConnection",
     license="MIT",
     py_modules=["MsgPackConnection"],
     install_requires=["msgpack-python"],
